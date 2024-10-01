@@ -1,16 +1,11 @@
-#!/bin/bash
-GREEN='\033[0;32m'
-while : 
+GREEN='\033[1;32m'
+WHITE='\033[1;37m'
+while :
 do
 echo "${GREEN}
 
-✘ OLÁ  SOU A SAKURA-V7.5 ^-^
-(⁠｡⁠•̀ᴗ⁠-⁠)✧ INICIANDO MEUS SISTEMAS⚡${WHITE}"
-if [ "$1" = "bronxys" ]; then
-node connect.js sim
-else 
+⸺͟͞ꪶOLÁ  SOU A SAKURA-V7 ^-^
+(⁠｡⁠•̀ᴗ⁠-⁠)✧ INICIANDO MEUS SISTEMAS☀️${WHITE}"
 node connect.js
-fi
-
 sleep 1
 done
